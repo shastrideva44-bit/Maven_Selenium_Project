@@ -28,10 +28,6 @@ public class ContactTest {
 		System.out.println("execute deleteContactTest ");
 	}
 
-	@Test
-	public void deleteTwoContactTest() {
-		System.out.println("execute deleteTwoContactTest ");
-	}
-}
+}	
 
 // check
