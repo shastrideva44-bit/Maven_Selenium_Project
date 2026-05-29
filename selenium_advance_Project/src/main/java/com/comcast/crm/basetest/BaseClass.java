@@ -48,7 +48,12 @@ public class BaseClass {
 	public void configBC() throws Throwable {
 	    System.out.println("==Launch the BROWSER==");
 	// String BROWSER = browser;
+	    /* if we r passing the PARAMETER from PROPERTY file then use this BROWSER  
 	String BROWSER= fLib.getDataFromPropertiesFile("browser");
+	*/
+	    /* if we r passing the PARAMETER from CMD then use this BROWSER
+	    */
+	String BROWSER = System.getProperty("browser");
 	 
 	
 	 if(BROWSER.equals("chrome")) {
@@ -65,9 +70,16 @@ public class BaseClass {
 	@BeforeMethod (groups = {"SMOKE TEST", "REGRESSION TEST"})
 	public void configBM() throws Throwable {
 	    System.out.println("=login=");
+	    /* if we r passing the PARAMETER from PROPERTY file then use below URL, USERNAME, PASSWORD
 	    String URL =   fLib.getDataFromPropertiesFile("url");
 	    String USERNAME =   fLib.getDataFromPropertiesFile("username");
 	    String PASSWORD =   fLib.getDataFromPropertiesFile("password");
+	    */
+	    
+	 // if we r passing the PARAMETER from CMD file then use below URL, USERNAME, PASSWORD
+	    String URL = System.getProperty("url");
+	    String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
 	    LoginPage lp = new LoginPage(driver);
 	    lp.loginToapp(URL, USERNAME, PASSWORD);
 	}

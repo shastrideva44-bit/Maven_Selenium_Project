@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-java/4.43.0/selenium-java-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-java/4.43.0/selenium-java-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-api/4.43.0/selenium-api-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-api/4.43.0/selenium-api-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" sourcepath="M2_REPO/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/4.43.0/selenium-chrome-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/4.43.0/selenium-chrome-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar" sourcepath="M2_REPO/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chromium-driver/4.43.0/selenium-chromium-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-chromium-driver/4.43.0/selenium-chromium-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-json/4.43.0/selenium-json-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-json/4.43.0/selenium-json-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-remote-driver/4.43.0/selenium-remote-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-remote-driver/4.43.0/selenium-remote-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar" sourcepath="M2_REPO/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar" sourcepath="M2_REPO/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar" sourcepath="M2_REPO/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar" sourcepath="M2_REPO/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-api/1.60.1/opentelemetry-api-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-api/1.60.1/opentelemetry-api-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-context/1.60.1/opentelemetry-context-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-context/1.60.1/opentelemetry-context-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-common/1.60.1/opentelemetry-common-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-common/1.60.1/opentelemetry-common-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-exporter-logging/1.60.1/opentelemetry-exporter-logging-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-exporter-logging/1.60.1/opentelemetry-exporter-logging-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk/1.60.1/opentelemetry-sdk-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk/1.60.1/opentelemetry-sdk-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-common/1.60.1/opentelemetry-sdk-common-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-common/1.60.1/opentelemetry-sdk-common-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-trace/1.60.1/opentelemetry-sdk-trace-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-trace/1.60.1/opentelemetry-sdk-trace-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-metrics/1.60.1/opentelemetry-sdk-metrics-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-metrics/1.60.1/opentelemetry-sdk-metrics-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-logs/1.60.1/opentelemetry-sdk-logs-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-logs/1.60.1/opentelemetry-sdk-logs-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.60.1/opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.60.1/opentelemetry-sdk-extension-autoconfigure-spi-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.60.1/opentelemetry-sdk-extension-autoconfigure-1.60.1.jar" sourcepath="M2_REPO/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.60.1/opentelemetry-sdk-extension-autoconfigure-1.60.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar" sourcepath="M2_REPO/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-http/4.43.0/selenium-http-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-http/4.43.0/selenium-http-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-manager/4.43.0/selenium-manager-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-manager/4.43.0/selenium-manager-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-os/4.43.0/selenium-os-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-os/4.43.0/selenium-os-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v145/4.43.0/selenium-devtools-v145-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v145/4.43.0/selenium-devtools-v145-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v146/4.43.0/selenium-devtools-v146-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v146/4.43.0/selenium-devtools-v146-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v147/4.43.0/selenium-devtools-v147-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-devtools-v147/4.43.0/selenium-devtools-v147-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-edge-driver/4.43.0/selenium-edge-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-edge-driver/4.43.0/selenium-edge-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-firefox-driver/4.43.0/selenium-firefox-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-firefox-driver/4.43.0/selenium-firefox-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-ie-driver/4.43.0/selenium-ie-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-ie-driver/4.43.0/selenium-ie-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-safari-driver/4.43.0/selenium-safari-driver-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-safari-driver/4.43.0/selenium-safari-driver-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-support/4.43.0/selenium-support-4.43.0.jar" sourcepath="M2_REPO/org/seleniumhq/selenium/selenium-support/4.43.0/selenium-support-4.43.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/testng/testng/7.11.0/testng-7.11.0.jar" sourcepath="M2_REPO/org/testng/testng/7.11.0/testng-7.11.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jcommander/jcommander/1.83/jcommander-1.83.jar" sourcepath="M2_REPO/org/jcommander/jcommander/1.83/jcommander-1.83-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/jquery/3.7.1/jquery-3.7.1.jar" sourcepath="M2_REPO/org/webjars/jquery/3.7.1/jquery-3.7.1-sources.jar"/>
+</classpath>
