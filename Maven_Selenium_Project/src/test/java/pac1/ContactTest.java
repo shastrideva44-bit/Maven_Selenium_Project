@@ -6,7 +6,7 @@ public class ContactTest {
 	@Test
 	public void createContactTest() {
 		String URL = System.getProperty("url");
-		String BROWSER = System.getProperty("browser");
+		String BROWSER = System.getProperty("browser","chrome");
 		String USERNAME = System.getProperty("username");
 		String PASSWORD = System.getProperty("password");
 		
@@ -20,5 +20,9 @@ public class ContactTest {
 	@Test
 	public void modifyContactTest() {
 		System.out.println("execute modifyContactTest ");
+	}
+	@Test
+	public void deleteContactTest() {
+		System.out.println("execute deleteContactTest ");
 	}
 }
